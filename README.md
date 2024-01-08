@@ -3,6 +3,7 @@
 1. 구름IDE, Nodejs스택
 2. Nodejs 버전 : 16.20.2 ( 컨테이너 생성 시 옵션으로 업그레이드 )
 3. mysql 버전 : 5.7.42-0ubuntu0.18.04.1 ( 컨테이너 생성 시 옵션으로 추가설치 )
+4. 중요!!! 해당 소스코드를 실행시켜보고 싶다면 다운받고 난뒤 해당폴더에서 npm install로 패키지들을 다시 재생성 해줘야 소스가 작동됨
 ### 서버관련사항
 1. 구름IDE가 실행중일때만 mysql서버와 nodejs서버를 접속할 수 있음
 2. nodejs 서버주소 : https://nodejs-con-dcoxe.run.goorm.site
